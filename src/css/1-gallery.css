@@ -1,0 +1,20 @@
+.gallery {
+  padding-left: auto;
+  padding-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-item {
+  position: relative;
+  width: calc((100% - 48px) / 3);
+  max-width: 360px;
+}
+
+a {
+  text-decoration: underline;
+}
