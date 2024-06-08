@@ -44,10 +44,6 @@ formData.message = message;
     formData.message = '';
 });
 
-function saveToLS(key, value) {
-  const jsonData = JSON.stringify(value);
-  localStorage.setItem(key, jsonData);
-}
 
 function loadFromLS(key) {
   const json = localStorage.getItem(key);
